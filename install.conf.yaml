@@ -27,5 +27,8 @@
     - ~/.vim/undo-history
 
 - shell:
+  - [brew install starship, Install Starship Prompt]
+  - [eval "$(starship init zsh)"]
+  - [brew install go-task, Install Go Task]
   - [git config --global user.email "2414647+chriskacerguis@users.noreply.github.com"]
   - [git config --global user.name "Chris Kacerguis"] 
